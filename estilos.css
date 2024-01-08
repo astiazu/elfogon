@@ -3,7 +3,7 @@
     --color2: rgba(23, 180, 83, 0.877);
     --color3: rgba(11,194,211, 0.623);
     --fondo: #f2f2f2;
-    --titulos: 33px;
+    --titulos: 40px;
     --margenes: 60px;
     --espacios: 10px;
     --espacios-contenido:45px;
@@ -188,10 +188,14 @@ header{
     margin: auto;
     text-align: center;
   }
+
+  .caja-servicios>img{
+    width: 100%;
+  }
  .caja-servicios>h4{
     margin-bottom: var(--espacios);
   }
-  
+
  .caja-servicios>p{
     text-align: center;
   }
